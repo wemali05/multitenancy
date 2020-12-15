@@ -39,7 +39,7 @@
                         {{ config('app.name') }}
                     </h1>
 
-										{{ App\Models\User::count() }} <br/>
+										<livewire:department-form />
 
                     <ul class="list-reset">
                         <li class="inline px-4">
